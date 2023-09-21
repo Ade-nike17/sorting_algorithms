@@ -6,6 +6,8 @@
  * integers in ascending order
  *
  * @list: pointer to the pointer to list to be sorted
+ *
+ * Return: Void
  */
 
 void insertion_sort_list(listint_t **list)

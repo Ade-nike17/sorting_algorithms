@@ -8,6 +8,8 @@
  *
  * @a: pointer to the first integer
  * @b: pointer to the second integer
+ *
+ * Return: Void
  */
 
 void swap(int *a, int *b)
@@ -58,6 +60,8 @@ int lomuto_partition(int *array, int low, int high, size_t size)
  * @low: starting index of the partition
  * @high: ending index of the partition
  * @size: size of the array
+ *
+ * Return: Void
  */
 
 void _quicksort(int *array, int low, int high, size_t size)
