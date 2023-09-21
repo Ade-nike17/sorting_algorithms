@@ -12,6 +12,8 @@ void selection_sort(int *array, size_t size)
 	size_t pos, iter, replace;
 	int temp_hold;
 
+	if (!array || size < 2)
+		return;
 	for (pos = 0; pos < size - 1; pos++)
 	{
 		temp_hold = array[pos];
