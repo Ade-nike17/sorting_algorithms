@@ -22,4 +22,8 @@ void print_array(const int *array, size_t size);
 void print_list(const listint_t *list);
 void bubble_sort(int *array, size_t size);
 
+/* Task functions */
+void bubble_sort(int *, size_t);
+void selection_sort(int *, size_t);
+
 #endif /* SORT_H */
