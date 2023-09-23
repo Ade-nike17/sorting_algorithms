@@ -20,10 +20,8 @@ typedef struct listint_s
 /* prototype functions */
 void print_array(const int *array, size_t size);
 void print_list(const listint_t *list);
-void bubble_sort(int *array, size_t size);
 listint_t *create_listint(const int *array, size_t size);
 void insertion_sort_list(listint_t **list);
-
 
 /* Task functions */
 void bubble_sort(int *, size_t);
@@ -35,5 +33,8 @@ int lomuto_partition(int *array, int high, int low, size_t size);
 void _quicksort(int *array, int low, int high, size_t size);
 void quick_sort(int *array, size_t size);
 
+/* Shell sort functions */
+void shell_sort(int *, size_t);
+void knuth_seq_sort(int *, size_t, size_t);
 
 #endif /* SORT_H */
